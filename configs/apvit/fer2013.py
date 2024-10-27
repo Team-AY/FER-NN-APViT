@@ -1,7 +1,7 @@
 
 _base_ = [
     '../_base_/default_runtime.py',
-    f'../_base_/datasets/fer2013.py',
+    f'../_base_/datasets/FER2013.py',
 ]
 
 
