@@ -9,7 +9,7 @@ from mmcls.models.losses.eval_metrics import class_accuracy
 from .base_dataset import BaseDataset
 from .builder import DATASETS
 
-@DATASETS.register_module(name='FER2013')
+
 
 def has_file_allowed_extension(filename, extensions):
     """Checks if a file is an allowed extension.

@@ -38,7 +38,7 @@ test_pipeline = [
     dict(type='Collect', keys=['img', ])
 ]
 
-base_path = '/content/drive/MyDrive/Final Project/Databases/fer-2013'
+base_path = '/content/drive/MyDrive/Final Project/Databases/fer-2013/'
 image_path = base_path + 'images'    # we use realigned images
 
 data = dict(
