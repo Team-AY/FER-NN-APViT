@@ -88,7 +88,7 @@ def gen_class_map(dataset_class):
     return convert_map
 
 @DATASETS.register_module()
-class RAF(BaseDataset):
+class FER2013(BaseDataset):
 
     IMG_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.ppm', '.bmp', '.pgm', '.tif')
     DATASET_CLASSES = [
