@@ -48,8 +48,8 @@ DataLoader:
   Train:
     dataset:
       name: FER2013Dataset
-      image_root: /content/drive/MyDrive/Final Project/Databases/fer-2013/images
-      cls_label_path: /content/drive/MyDrive/Final Project/Databases/fer-2013/EmoLabel/Training/Training.txt
+      image_root: /content/drive/MyDrive/Final_Project/Databases/fer-2013/images
+      cls_label_path: /content/drive/MyDrive/Final_Project/Databases/fer-2013/EmoLabel/Training/Training.txt
       transform_ops:
         - DecodeImage:
             to_rgb: True
@@ -89,8 +89,8 @@ DataLoader:
   Eval:
     dataset: 
       name: FER2013Dataset
-      image_root: /content/drive/MyDrive/Final Project/Databases/fer-2013/images
-      cls_label_path: /content/drive/MyDrive/Final Project/Databases/fer-2013/EmoLabel/Test/Test.txt
+      image_root: /content/drive/MyDrive/Final_Project/Databases/fer-2013/images
+      cls_label_path: /content/drive/MyDrive/Final_Project/Databases/fer-2013/EmoLabel/Test/Test.txt
       transform_ops:
         - DecodeImage:
             to_rgb: True
